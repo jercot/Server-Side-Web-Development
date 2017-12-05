@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<Context>
+  <Resource name="jdbc/database" auth="Container" type="javax.sql.DataSource"
+               maxActive="50" maxIdle="30" maxWait="10000"
+               username="" password=""
+               driverClassName="org.apache.derby.jdbc.EmbeddedDriver"
+               url="jdbc:derby:/database;create=true"/>
+
+</Context>

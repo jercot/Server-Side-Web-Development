@@ -1,0 +1,136 @@
+html {
+	height: 100%;
+}
+
+body {
+	background-color: #0f182b;
+	background: -webkit-linear-gradient(top, #0f182b, #2a3b53, #0f182b); 
+	background: -moz-linear-gradient(top, #0f182b, #2a3b53, #0f182b); 
+	background: linear-gradient(#0f182b, #2a3b53, #0f182b); 
+	height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	color: #fff;
+}
+
+.centerOne {
+	margin-top: 5%;
+	float: left;
+	position: relative;
+	left: 50%;
+}
+
+.centerTwo {
+	float: left;
+	position: relative;
+	left: -50%;
+}
+
+.outter {
+	width: 600px;
+	background-color: #e2e2e2;
+ 	padding: 15px;
+}
+
+.inner {
+	background-color: #0f182b;
+	background: -webkit-linear-gradient(top, #0f182b, #2a3b53, #0f182b); 
+	background: -moz-linear-gradient(top, #0f182b, #2a3b53, #0f182b); 
+	background: linear-gradient(#0f182b, #2a3b53, #0f182b); 
+}
+
+h1 {
+    text-align: center;
+}
+
+.skid {
+    text-align: center;
+}
+
+.textfield {
+	width: 50px;
+}
+
+.surface {
+	width: 300px;
+	margin: 0 auto;
+}
+
+input[type="radio"] {
+  margin-left: 20px;
+}
+
+.submit {
+	text-align: center;
+}
+
+input[type=submit] {
+	outline: 0;
+	margin: 0 auto;
+    padding: 5px 12px;
+    display: block;
+    color: #9fa8b0;
+    font-weight: bold;
+    text-shadow: 1px 1px #1f272b;
+    border: 1px solid #1c252b;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    background: #232B30; /* old browsers */
+}
+
+
+input[type=submit]:hover {
+    color: #fff;
+    background: #4C5A64; /* old browsers */
+    background: -moz-linear-gradient(top, #4C5A64 3%, #404F5A 4%, #2E3940 100%); /* firefox */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(3%,#4C5A64), color-stop(4%,#404F5A), color-stop(100%,#2E3940)); /* webkit */
+}
+input[type=submit]:active {
+    background-position: 0 top;
+    position: relative;
+    top: 1px;
+    color: #fff;
+    padding: 6px 12px 4px;
+    background: #20282D; /* old browsers */
+    background: -moz-linear-gradient(top, #20282D 3%, #252E34 51%, #222A30 100%); /* firefox */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(3%,#20282D), color-stop(51%,#252E34), color-stop(100%,#222A30)); /* webkit */
+    -moz-box-shadow: 1px 1px 1px rgba(255,255,255,0.1); /* Firefox */
+    -webkit-box-shadow: 1px 1px 1px rgba(255,255,255,0.1); /* Safari, Chrome */
+    box-shadow: 1px 1px 1px rgba(255,255,255,0.1); /* CSS3 */
+}
+
+.textError {
+	text-align: center;
+	color: red;
+}
+
+.current {
+	text-align: center;
+}
+
+.previous {
+	text-align: center;
+}
+
+.info {
+	text-align: center;
+}
+
+.indent {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+a {
+	color: grey;
+}
+
+a:hover {
+	color: #ffffff;
+}
+
+.link {
+	text-align: center;
+}
